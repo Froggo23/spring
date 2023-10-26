@@ -11,7 +11,7 @@ public class StringController {
     }
 
     @GetMapping("/home2")
-    public String ontohome2() {
+    public String tohome2() {
         return "home2";
     }
 
