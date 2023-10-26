@@ -10,5 +10,10 @@ public class StringController {
         return "hello";
     }
 
+    @GetMapping("/home2")
+    public String ontohome2() {
+        return "home2";
+    }
+
 
 }
