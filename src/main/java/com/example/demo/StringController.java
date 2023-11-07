@@ -16,4 +16,7 @@ public class StringController {
     }
 
 
+    @GetMapping("/home3")
+    public String helloworld3() {return "hello3";}
+
 }
