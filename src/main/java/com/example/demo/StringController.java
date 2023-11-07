@@ -7,6 +7,8 @@ public class StringController {
 
     @GetMapping("/home")
     public String helloworld(){
+        // trying to connect to mariadb
+        // your so skibiddy your so fanum tax
         return "hello";
     }
 
