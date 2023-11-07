@@ -13,10 +13,6 @@ public class StringController {
     }
     
 
-    @GetMapping("/home2")
-    public String tohome2() {
-        return "home2";
-    }
 
 
     @GetMapping("/home3")
